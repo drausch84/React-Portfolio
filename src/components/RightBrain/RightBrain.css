@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.rbrain-img{
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .rbrain-img{
+    opacity: 0.3;
+}
+
+.container:hover .middle{
+    opacity: 1;
+}
+
+.explanation{
+    background: ghostwhite;
+    color: black;
+    font-family: 'Slabo 27px', serif;
+    font-size: 16px;
+    padding: 16px 32px;
+}

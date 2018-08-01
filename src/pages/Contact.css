@@ -1,0 +1,167 @@
+.contact-p{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    color: black;
+    font-size:1.2em;
+}
+.form-container{
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 450px;
+    background: url("./images/form-background.jpg");
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    border-color: #A00000;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+input[type=email]{
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+    color: black;
+    font-size:18px;
+    background: ghostwhite;
+    width: 50%;
+    height: 30px;
+    border-color: #A00000;
+    border-style: solid;
+    border-radius: 4px;
+
+}
+
+.email{
+    border-bottom:1px solid #A00000;
+    margin: 2px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    background: ghostwhite;
+    
+}
+
+.subject{
+    border-color:#A00000;
+    border-style: solid;
+    border-radius: 4px;
+    margin: 15px 2px;
+    color :black;
+    background: ghostwhite;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    width: 50%;
+    height: 30px;
+    text-align:left;
+}
+
+.message{
+    border-color: #A00000;
+    border-style: solid;
+    border-radius: 4px;
+    margin: 2px;
+    color: black;
+    background: ghostwhite;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    height: 120px;
+    
+}
+::placeholder{
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+    color: darkgray;
+    font-size: 1.2em;
+}
+::placeholder:after{
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+    color: black;
+    font-size: 1.2em;
+    border-bottom: 1px solid #A00000;
+}
+.submit-btn{
+    color: ghostwhite;
+    background: #A00000;
+    font-family: 'Slabo 27px';
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius:10px;
+    padding: 8px 48px;
+    border-color: black;
+    border-style: solid;
+    font-size: 18px;
+}
+.submit-btn:hover{
+    background:ghostwhite;
+    color:black;
+    -webkit-transition: .8s;
+    transition: .8s;
+}
+.submit-btn:active{
+    background: black;
+    color: ghostwhite;
+}
+.submit-btn:active:after{
+    background: black;
+    color: ghostwhite;
+}
+.superman-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius:50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 450px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #A00000;
+}
+
+.superman-img:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transition: 1.3s;
+    transition: 1.3s;
+}
+
+.d-icon{
+    height: 60px;
+    width: 60px;
+    margin: 8px;
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+}
+
+.d-icon:hover{
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+    -webkit-animation: shake 0.5s;
+    animation: shake 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake{
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50%{ transform: translate(-1px, 2px) rotate(-1deg)}
+    60%{ transform: translate(-3px, 1px) rotate(0deg)}
+    70%{ transform: translate(3px, 1px) rotate(-1deg)}
+    80%{ transform: translate(-1px, -1px) rotate(1deg)}
+    90%{ transform: translate(1px, 2px) rotate(0deg)}
+    100%{ transform: translate(1px, -2px) rotate(-1deg)}
+}
+
+body[data-aos-duration='2800'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='2800'] {
+    transition-duration: 2800ms;
+  }

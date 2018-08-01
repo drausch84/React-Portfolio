@@ -1,0 +1,23 @@
+  nav .nav-wrapper{
+      background: #2c3539;
+      height: 90px;
+
+  }
+
+  .logo-img {
+    height: auto;
+    width: auto;
+    max-height: 90px;
+    max-width: 250px;
+   border-radius: 25%;
+   padding:7px;
+  
+  }
+  nav ul a{
+    color: ghostwhite;
+    padding: 25px 15px;
+    font-family: 'Slabo 27px', serif;
+    font-size:1.5em;
+  }
+
+  
