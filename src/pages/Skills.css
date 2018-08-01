@@ -25,6 +25,35 @@ body[data-aos-duration='2000'] [data-aos],
     font-family: "Anton", serif;
     text-decoration: underline;
 }
+.education{
+    font-family: "Anton", serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.boot-camp{
+    font-weight: bold;
+    font-family: "Anton", serif;
+    text-decoration: underline;
+    margin: 0px 50px;
+}
+.bc-info{
+    font-family: "Slabo 27px", serif;
+    font-size: 18px;
+    margin: 0px 50px;
+    text-align: left;
+}
+.regis{
+    font-weight: bold;
+    font-family: "Anton", serif;
+    text-decoration: underline;
+    margin: 0px 50px;
+}
+.regis-info{
+    font-family: "Slabo 27px", serif;
+    font-size: 18px;
+    margin: 0px 50px;
+    text-align: left;
+}
 ul.a{
     text-align: center;
 }
