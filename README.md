@@ -1,3 +1,5 @@
 # My Portfolio Website
-Being updated as we speak, mostly using React, Materialize for the CSS(along with Webkit extensions), Redux, and JQuery
+Portfolio site built mostly with React, Materialize for the CSS(along with Webkit extensions), Redux, and jQuery
 
+
+Visit the website at: [RauschDevelopment](www.rauschdevelopment.com).
